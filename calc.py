@@ -1,6 +1,6 @@
 print("Calculator")
 
-variable = input("Enter a valuex: ")
+variable = input("Enter a value: ")
 variable2 = input("Enter another value: ")
 try:
     float(variable)
