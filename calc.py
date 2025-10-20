@@ -1,7 +1,7 @@
 print("Calculator")
 
-variable = input("Enter a value (no decimals): ")
-variable2 = input("Enter another value (no decimals): ")
+variable = input("Enter a valuex: ")
+variable2 = input("Enter another value: ")
 try:
     float(variable)
     float(variable2)
