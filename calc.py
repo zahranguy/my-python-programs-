@@ -1,12 +1,10 @@
 print("Calculator")
 
 variable = input("Enter a value: ")
-variable2 = input("Enter another value: ")
 try:
     float(variable)
-    float(variable2)
 except ValueError:
-    print("how is that or those a number?")
+    print("how is that a number?")
     exit()
 
 print("what do you want to do?")
@@ -16,6 +14,14 @@ print("3. multiply")
 print("4. divide")
 
 choice = input("Enter choice(1/2/3/4): ")
+
+
+variable2 = input("Enter another value: ")
+try:
+    float(variable2)
+except ValueError:
+    print("how is that a number?")
+    exit()
 
 
 if choice == "1":
