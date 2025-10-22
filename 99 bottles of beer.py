@@ -1,11 +1,17 @@
 a = 99
 
-while a > 1:
+while a > 2:
     print(a, "bottles of beer on the wall,")
     print(a, "bottles of beer,")
     print("Take one down, pass it around,")
     a = a - 1
     print(a, "bottles of beer on the wall.\n")
+while a == 2:
+    print("2 bottles of beer on the wall,")
+    print("2 bottles of beer,")
+    print("Take one down, pass it around,")
+    a = a - 1
+    print("1 bottle of beer on the wall.\n")
 while a == 1:
     print(a, "bottle of beer on the wall,")
     print(a, "bottle of beer,")
