@@ -1,4 +1,3 @@
 # my-python-programs-
 random python programs i made
-
-a readme
+if program does not run say in issues please :)
